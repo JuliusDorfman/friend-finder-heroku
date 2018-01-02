@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 require("./routing/apiRoutes")(app);
-require("./routing/HTMLRoutes")(app);
+require("./routing/htmlRoutes")(app);
 
 
 
